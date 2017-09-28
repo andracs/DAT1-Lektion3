@@ -1,8 +1,21 @@
+
 public class Metoder {
 
     public int x;
 
+
     public static void main(String[] args) {
+
+        // detFraFormiddagen();
+
+
+    }
+
+    public Metoder() {
+
+    }
+
+    public static void detFraFormiddagen() {
         System.out.println(1+2);
 
         Metoder m = new Metoder();
@@ -14,7 +27,7 @@ public class Metoder {
         Metoder.udskrivHej();
         udskrivHej();
         udskrivHej();
-        
+
         lassesNavn("Lasse");
 
         double skabnen = (int) 6*Math.random()+1;
@@ -23,12 +36,11 @@ public class Metoder {
         System.out.println(m.sum3(8, 5 , 10));
 
         indtastOgVisNavn("András");
-        ditNavn("Daniel");
-
-    }
-
-    public Metoder() {
-
+        indtastDitNavn("Daniel");
+        lassesNavn("Lasse");
+        hejLiselotte();
+        navnMikkel();
+        hejErik();
     }
 
     public int sum(int a, int b) {
@@ -75,8 +87,10 @@ public class Metoder {
     public static void navnMikkel() {
     System.out.println("Mit navn er Mikkel Sørensen. ");
     }
-}
-    
+
     public static void hejErik() {
         System.out.println("Hej Erik");
+    }
+
 }
+    
