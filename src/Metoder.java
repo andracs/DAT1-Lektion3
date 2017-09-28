@@ -15,6 +15,8 @@ public class Metoder {
         udskrivHej();
         udskrivHej();
 
+        navnMikkel();
+        
         double skabnen = (int) 6*Math.random()+1;
         System.out.println(skabnen);
 
@@ -55,4 +57,7 @@ public class Metoder {
         System.out.println("Hej " + navn);
     }
 
+    public static void navnMikkel() {
+    System.out.println("Mit navn er Mikkel Sørensen. ");
+    }
 }
