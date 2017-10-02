@@ -1,21 +1,8 @@
-
 public class Metoder {
 
     public int x;
 
-
     public static void main(String[] args) {
-
-        // detFraFormiddagen();
-
-
-    }
-
-    public Metoder() {
-
-    }
-
-    public static void detFraFormiddagen() {
         System.out.println(1+2);
 
         Metoder m = new Metoder();
@@ -27,7 +14,7 @@ public class Metoder {
         Metoder.udskrivHej();
         udskrivHej();
         udskrivHej();
-
+        
         lassesNavn("Lasse");
 
         double skabnen = (int) 6*Math.random()+1;
@@ -36,11 +23,15 @@ public class Metoder {
         System.out.println(m.sum3(8, 5 , 10));
 
         indtastOgVisNavn("András");
-        indtastDitNavn("Daniel");
-        lassesNavn("Lasse");
-        hejLiselotte();
-        navnMikkel();
-        hejErik();
+        
+        hejMathias();
+
+        ditNavn("Daniel");
+
+    }
+
+    public Metoder() {
+
     }
 
     public int sum(int a, int b) {
@@ -70,6 +61,15 @@ public class Metoder {
         System.out.println("Hej " + navn);
     }
     
+    public static void HejSebastian() {    
+        System.out.println( "Hej " + mitNavn);
+
+    public static void hejThomas() {
+        System.out.println("Hej Thomas :i");
+
+  public static void MegetBeskrivendeMetodeMadsN() {
+        System.out.println("Hej Mads Nielsen");
+     }
 
     public static void lassesNavn(String navn){
         System.out.println(navn + " har lavet sin metode");
@@ -87,10 +87,27 @@ public class Metoder {
     public static void navnMikkel() {
     System.out.println("Mit navn er Mikkel Sørensen. ");
     }
-
+    
     public static void hejErik() {
-        System.out.println("Hej Erik");
+        System.out.println("Hej Erik");        
+    }
+
+    public static void hejMichaelH(){
+        System.out.println("Hej Michael");   
+    }
+
+    public static void nameNiels() {
+        System.out.println("My name is Niels");
+    }
+
+      
+      public static void hejmichael(){
+    System.out.println("Hej Michael");
+   }
+      
+          public static void hejMathias(){
+        System.out.println("Hej Mathias");
     }
 
 }
-    
+ 
