@@ -1,3 +1,5 @@
+package com.company;/* Starten på min kattesimulator */
+
 import java.util.*;
 
 public class KatteInternatet {
@@ -34,14 +36,39 @@ public class KatteInternatet {
         Random random1 = new Random(3);
         System.out.print("From random1: ");
         for (int i = 0; i < 10; i++)
-            System.out.print(random1.nextInt(1000) + " ");
+            System.out.println(random1.nextInt(1000) + " ");
         Random random2 = new Random(3);
         System.out.print("\nFrom random2: ");
         for (int i = 0; i < 10; i++)
-            System.out.print(random2.nextInt(1000) + " ");
+            System.out.println(random2.nextInt(1000) + " ");
         // Her kan du se, hvordan vi kan lave tilfældige numre
         // https://www.tutorialspoint.com/java/lang/math_random.htm
 
+        Dog dog1; // Deklarer kat1 variablen
+        dog1 = new Dog("blå"); // Initierer variablen
+
+        Dog dog2;
+        dog2 = new Dog(10);
+
+        dog1.setAntalBen(4);
+        System.out.println(" hund 1 har " + dog1.getAntalBen() + " ben ");
+
+        System.out.println(" hun 2 har " + dog2.getAntalBen() + " ben ");
+
+        Enum_farve n, l, d, e, f, g, s, y, w;
+        n = Enum_farve.sort;
+        l = Enum_farve.blå;
+        d = Enum_farve.rød;
+        e = Enum_farve.creme;
+        f = Enum_farve.sortT;
+        g = Enum_farve.blåT;
+        s = Enum_farve.sølv;
+        y = Enum_farve.guld;
+        w = Enum_farve.hvid;
+
+        System.out.println(" katten har farven " + n );
+        System.out.println(" hund og katten har en underlige farve " + y );
+        System.out.println(" hun har både farven " + n + " , "+ e + " og " + w);
 
     }
 }
