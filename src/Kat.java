@@ -1,4 +1,4 @@
-/* Starten på min kattesimulator */
+package com.company;/* Starten på min kattesimulator */
 
 
 /* En klasse er en slags opskrift på, hvordan vi laver katte */
